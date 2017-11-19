@@ -1,0 +1,213 @@
+/*   index.html   */
+body {
+	background-image: url(../images/white.png);
+	background-repeat: repeat;
+	width: 100%;
+}
+.title {
+background-color: #000;
+}
+.title h1 {
+	text-align: center;
+	color: gold;
+	font-family: Courier new;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.image {
+	margin: 38px 0 0;
+}
+.image p {
+	text-align: center;
+}
+.round {
+	border-radius: 100px;
+	box-shadow: 0 0 20px #000;
+}
+.top {
+	color: #000;
+	margin: 75px 0 0 0;
+}
+.basic, .add {
+	background-color: #000;
+    border: 3px solid gold;
+    border-radius: 30px;
+    bottom: 0;
+    height: 70px;
+    left: 0;
+    margin: -40px auto 30px;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 200px; 
+} 
+.basic p, .add p {
+	font-family: Courier new;
+	margin-top: 6px; 
+	color: gold;
+	font-size: 25px;
+	text-align: center;
+}
+.table {
+    margin: 0px auto -470px;
+    width: 506px;
+    height: 440px;
+}
+.info_1 {
+	background-color: #000;
+    height: 435px;
+    width: 250px;
+    float: left;
+    padding-top: 7px;
+    border: 3px solid gold;
+    border-right: none;
+}
+.info_2 {
+	background-color: #000;
+    height: 435px;
+    width: 250px;
+    float: right;
+    padding-top: 7px;
+    border: 3px solid gold;
+    border-left: none;
+    text-align: center;
+}
+.info_1 li {
+	margin:0 0 0 -16px;
+}
+.info_1 li:hover, .info_2 li:hover {
+	background-color: white;
+	box-shadow: 0 0 20px #999;
+}
+.info_1 li, .info_2 li {
+	list-style-type: none;
+	display: block;
+	height: 55px;
+	width: 225px;
+	background-color: #eee;
+	font-family: Myriad Pro;
+	text-align: center;
+	border: 1px solid #999;
+	font-size: 16px;
+}
+
+.info_2 li{
+	margin: 0 0 0 -40px;
+}
+.bottom {
+	color: #000;
+	margin: 550px 0 0;
+	float: none;
+}
+.text {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 1px 0;
+    text-align: center;
+    border: 7px solid gold;
+    border-radius: 70px;
+}
+.text b {
+	color: gold;
+}
+.text a {
+	color: blue;
+	text-decoration: none; 
+}
+.text a:hover {
+	color: gold;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+.text a:active {
+	color: red;
+	text-decoration-style: solid;
+}
+
+
+/*   movies.html   */
+.movie_1, .movie_2, .movie_3, .movie_4 {
+	height: 435px;
+	width: 100%;
+}
+.movie_1 img {
+    margin: 0 15px 0 0;
+    height: 405px;
+    width: 270px;
+    border: 7px solid gold;
+    float: left;
+}
+.movie_2 img, .movie_3 img, .movie_4 img {
+	margin: 0 15px 0 0;
+	border: 7px solid gold;
+	float: left;
+}
+.details_1, .details_4 {
+	background-color: #000;
+    padding: 0 30px 0 0;
+    border-radius: 130px;
+    border: 7px solid gold;
+    height: 405px;
+	width: 100%;
+}
+.details_2 {
+	background-color: #000;
+    padding: 0 30px 0 0;
+    border-radius: 130px;
+    border: 7px solid gold;
+    height: 400px;
+	width: 100%;
+}
+.details_3 {
+	background-color: #000;
+    padding: 0 30px 0 0;
+    border-radius: 130px;
+    border: 7px solid gold;
+    height: 405px;
+	width: 100%;	
+}
+.details_1 h3, .details_2 h3, .details_3 h3, .details_4 h3 {
+	font-family: Arial;
+	font-size: 30px;
+	margin: 10px 0 -10px 0;
+}
+.details_1 a, .details_2 a, .details_3 a, .details_4 a {
+	color: #eee;
+	text-decoration: none;
+}
+.details_1 a:hover, .details_2 a:hover, .details_3 a:hover, .details_4 a:hover {
+	color: gold;
+}
+.details_1 a:active, .details_2 a:active, .details_3 a:active, .details_4 a:active {
+	color: blue;
+	text-decoration-style: solid;
+	text-decoration: underline;
+}
+.details_1 p, .details_2 p, .details_3 p, .details_4 p {
+	color: #eee;
+	font: 19px Arial;
+}
+.details_1 b, .details_2 b, .details_3 b, .details_4 b {
+	color: gold;
+}
+.home a {
+	text-decoration: none;
+}
+.home input {
+	width: 70px;
+	height: 40px;
+	color: #fff;
+	background-color: #000;
+	border: 5px solid gold;
+	font-family: Arial; 
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+.home input:hover {
+	background-color: gold;
+	color: #000;
+	border: 5px solid #000;
+}
